@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+
+  background: lightgrey;
+}
+
+.header .banner {
+  font-size: 24px;
+}
+
+.header .cart {
+  background: grey;
+}
+
+.header .cart .count {
+  /*background:*/
+}
+
+.items {
+  margin-top: 30px;
+}
+
+.fruit-list {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 2px;
+}
+.fruit-list li {
+  list-style: none;
+  text-align: center;
+  background: #bada55;
+  padding: 2%;
+  cursor: pointer;
+}

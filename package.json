@@ -10,5 +10,8 @@
     "js"
   ],
   "author": "philipjc",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "requirejs": "^2.3.3"
+  }
 }

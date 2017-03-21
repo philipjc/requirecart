@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./styles/main.css">
+  <title>Document</title>
+  <!-- data-main attribute tells require.js to load
+        scripts/main.js after require.js loads. -->
+  <script data-main="./app.js" src="../node_modules/requirejs/require.js" async></script>
+</head>
+<body>
+  <app>
+    <header class="header">
+      <div class="banner">
+        Name of the Shop
+      </div>
+      <div class="cart">
+        <div class="count">Cart items: <span class="num"></span></div>
+        <div>Total: <span class="total"></span></div>
+      </div>
+    </header>
+    <section class="items">
+      <div class="fruit">
+        <ul class="fruit-list">
+          
+        </ul>
+      </div>
+    </section>
+  </app>
+</body>
+</html>
